@@ -1,7 +1,7 @@
 
 #!/usr/bin/python3
-"""N queens solution finder module.
-"""
+"""N queens solution finder module."""
+
 import sys
 
 
@@ -106,4 +106,3 @@ n = get_input()
 get_solutions()
 for solution in solutions:
     print(solution)
-    
